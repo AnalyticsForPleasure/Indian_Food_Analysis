@@ -24,6 +24,11 @@ if __name__ == '__main__':
     df = pd.read_csv('/home/shay_diy/PycharmProjects/Indian_Food_Analysis/Data/indian_food.csv')
     print('*')
 
+    unique_region = pd.unique(df['region'])
+    print(unique_region)
+    print('*')
+
+
     # Split the string in each row by comma and convert to list
     ingredient_lists = df['ingredients'].str.split(',').tolist()
 
@@ -37,10 +42,17 @@ if __name__ == '__main__':
     new_data = new_data.loc[df['region'] != 'Null', :]
     print('*')
 
+    new_data['Total time'] = new_data.loc[:,'prep_time'] +  new_data.loc[:,'cook_time']
+    print('*')
     groups_by_region = new_data.groupby('region')
     for region_name, mini_df_region in groups_by_region:
         print("The team name is: ", region_name)
-        print(mini_df_region)
+        amount_of_flavor_at_each_region = mini_df_region['flavor_profile'].value_counts().reset_index()
+        print('*')
+        mini_df_region.sort_values(by = ['Total time'] , ascending=False,inplace=True)
+
+
+
         print('*')
 
 
