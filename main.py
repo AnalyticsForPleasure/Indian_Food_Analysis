@@ -31,3 +31,16 @@ if __name__ == '__main__':
     all_ingredients = [ingredient.strip() for sublist in ingredient_lists for ingredient in sublist]
 
     print(all_ingredients)
+
+    # Taking the data only  with region ( not taking the '-1' region )
+    new_data = df.loc[df['region'] != '-1', :]
+    new_data = new_data.loc[df['region'] != 'Null', :]
+    print('*')
+
+    groups_by_region = new_data.groupby('region')
+    for region_name, mini_df_region in groups_by_region:
+        print("The team name is: ", region_name)
+        print(mini_df_region)
+        print('*')
+
+
