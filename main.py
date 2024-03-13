@@ -2,8 +2,8 @@ import numpy as np
 import pandas as pd
 import matplotlib
 import matplotlib.pyplot as plt
-
-
+from collections import Counter
+from pprint import pprint
 
 ###### Info about columns : ##########################################################################
 ######################################################################################################
@@ -28,31 +28,25 @@ if __name__ == '__main__':
     print(unique_region)
     print('*')
 
-
-    # Split the string in each row by comma and convert to list
-    ingredient_lists = df['ingredients'].str.split(',').tolist()
-
-    # Flatten the list of lists and remove leading/trailing spaces
-    all_ingredients = [ingredient.strip() for sublist in ingredient_lists for ingredient in sublist]
-
-    print(all_ingredients)
-
     # Taking the data only  with region ( not taking the '-1' region )
     new_data = df.loc[df['region'] != '-1', :]
     new_data = new_data.loc[df['region'] != 'Null', :]
     print('*')
 
-    new_data['Total time'] = new_data.loc[:,'prep_time'] +  new_data.loc[:,'cook_time']
+    # Split the string in each row by comma and convert to list
+
+    new_data['Total time'] = new_data.loc[:, 'prep_time'] + new_data.loc[:, 'cook_time']
     print('*')
     groups_by_region = new_data.groupby('region')
     for region_name, mini_df_region in groups_by_region:
-        print("The team name is: ", region_name)
+        print("The region name is: ", region_name)
         amount_of_flavor_at_each_region = mini_df_region['flavor_profile'].value_counts().reset_index()
-        print('*')
-        mini_df_region.sort_values(by = ['Total time'] , ascending=False,inplace=True)
+        # mini_df_region.sort_values(by = ['Total time'] , ascending=False,inplace=True)
+        # print(amount_of_flavor_at_each_region)
 
+        ingredient_lists = mini_df_region['ingredients'].str.split(',').tolist()
+        # Flatten the list of lists and remove leading/trailing spaces
+        all_ingredients = [ingredient.strip() for sublist in ingredient_lists for ingredient in sublist]
+        pprint(Counter(all_ingredients))
 
-
-        print('*')
-
-
+        # print(all_ingredients)
