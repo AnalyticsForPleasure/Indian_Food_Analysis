@@ -33,20 +33,29 @@ if __name__ == '__main__':
     new_data = new_data.loc[df['region'] != 'Null', :]
     print('*')
 
-    # Split the string in each row by comma and convert to list
 
+    all_diet_categories = ['vegetarian','non vegetarian']
+    # Split the string in each row by comma and convert to list
     new_data['Total time'] = new_data.loc[:, 'prep_time'] + new_data.loc[:, 'cook_time']
     print('*')
+    # Filter number 1: Filtering by region
     groups_by_region = new_data.groupby('region')
     for region_name, mini_df_region in groups_by_region:
-        print("The region name is: ", region_name)
+        #print("The region name is: ", region_name)
         amount_of_flavor_at_each_region = mini_df_region['flavor_profile'].value_counts().reset_index()
         # mini_df_region.sort_values(by = ['Total time'] , ascending=False,inplace=True)
         # print(amount_of_flavor_at_each_region)
 
-        ingredient_lists = mini_df_region['ingredients'].str.split(',').tolist()
-        # Flatten the list of lists and remove leading/trailing spaces
-        all_ingredients = [ingredient.strip() for sublist in ingredient_lists for ingredient in sublist]
-        pprint(Counter(all_ingredients))
+        # Filter number 2: Filtering by diet_category
+        for diet_category in all_diet_categories:
+            print("The region name is: ", region_name, "Type: ",diet_category )
+            filtered_data_by_region_diet = mini_df_region.loc[mini_df_region['diet']== diet_category, :]
+            print('*')
 
-        # print(all_ingredients)
+
+            ingredient_lists = mini_df_region['ingredients'].str.split(',').tolist()
+            # Flatten the list of lists and remove leading/trailing spaces
+            all_ingredients = [ingredient.strip() for sublist in ingredient_lists for ingredient in sublist]
+            pprint(Counter(all_ingredients))
+
+            # print(all_ingredients)
