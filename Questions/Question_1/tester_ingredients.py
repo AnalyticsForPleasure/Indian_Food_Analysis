@@ -21,7 +21,8 @@ import pandas as pd
 data = {
     'Dish name': ['Boondi', 'Lessi','Sheera'],
     'ingredients': [['Gram flour', 'ghee', 'sugar'], ['Yogurt', 'milk', 'nuts', 'nuts', 'sugar'],['Semolina','ghee','nuts','milk']],
-    'diet': ['veg', 'veg','veg']
+    'diet': ['veg', 'veg','veg'],
+    'Region': ['West','North','West'],
 }
 
 df = pd.DataFrame(data)
@@ -32,7 +33,7 @@ def expand_df(df):
     for index, row in df.iterrows():
         ingredients = row['ingredients']
         for ingredient in ingredients:
-            expanded_rows.append({'Dish name': row['Dish name'], 'ingredients': ingredient, 'diet': row['diet']})
+            expanded_rows.append({'Dish name': row['Dish name'], 'ingredients': ingredient, 'diet': row['diet'],'Region':row['Region']})
     return pd.DataFrame(expanded_rows)
 
 # Expand the DataFrame
