@@ -34,7 +34,19 @@ if __name__ == '__main__':
     ingredient_counts = expanded_df['ingredients'].value_counts()
 
     # Sort DataFrame based on the number of rows for each ingredient
-    sorted_df = expanded_df[expanded_df['ingredients'].isin(ingredient_counts.index)].sort_values(by='ingredients', key=lambda x: ingredient_counts[x['ingredients']], ascending=False) # TODO: Need to check this in order it will work
+    #sorted_df = expanded_df.sort_values(by='ingredients', key=lambda x: ingredient_counts[x['ingredients']], ascending=False)
+    #sorted_df = expanded_df.sort_values(by='ingredients', key= ingredient_counts, ascending=False)
+
+    # Sort DataFrame based on the number of rows for each ingredient
+    sorted_df = expanded_df.groupby('ingredients').size().reset_index(name='count').sort_values(by='count', ascending=False)
+
+
+    #
+    # # Count occurrences of each ingredient
+    # ingredient_counts = expanded_df['ingredients'].value_counts()
+    #
+    # # Sort DataFrame based on the number of rows for each ingredient
+    # sorted_df = expanded_df[expanded_df['ingredients'].isin(ingredient_counts.index)].sort_values(by='ingredients', key=lambda x: ingredient_counts[x['ingredients']], ascending=False) # TODO: Need to check this in order it will work
 
     sorted_df.to_csv('/home/shay_diy/PycharmProjects/Indian_Food_Analysis/Questions/Question_1/preparing_word_cloud.csv', index=False)
     print('*')
