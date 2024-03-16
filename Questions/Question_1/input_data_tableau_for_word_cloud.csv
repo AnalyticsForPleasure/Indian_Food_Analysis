@@ -1,0 +1,347 @@
+name,ingredients,diet,region
+Fara,Chana dal,vegetarian,Central
+Laapsi,Cinnamon,vegetarian,Central
+Mawa Bati,Milk powder,vegetarian,Central
+Mawa Bati,all purpose flour,vegetarian,Central
+Fara,arhar dal,vegetarian,Central
+Mawa Bati,arrowroot powder,vegetarian,Central
+Laapsi,clarified butter,vegetarian,Central
+Mawa Bati,dry fruits,vegetarian,Central
+Laapsi,dry roasted,vegetarian,Central
+Fara,garam masala powder,vegetarian,Central
+Laapsi,jaggery,vegetarian,Central
+Fara,white urad dal,vegetarian,Central
+Chhena jalebi,Chhena,vegetarian,East
+Chhena kheeri,Chhena,vegetarian,East
+Ledikeni,Chhena,vegetarian,East
+Pantua,Chhena,vegetarian,East
+Ras malai,Chhena,vegetarian,East
+Rasgulla,Chhena,vegetarian,East
+Kalakand,Milk,vegetarian,East
+Misti doi,Milk,vegetarian,East
+Sandesh,Milk,vegetarian,East
+Phirni,Rice,vegetarian,East
+Cheera Doi,Rice,vegetarian,East
+Daal puri,all purpose flour,vegetarian,East
+Goja,all purpose flour,vegetarian,East
+Kheer sagar,cardamom,vegetarian,East
+Rasgulla,cardamom,vegetarian,East
+Sandesh,cardamom,vegetarian,East
+Gulab jamun,ghee,vegetarian,East
+Chhena jalebi,ghee,vegetarian,East
+Ledikeni,ghee,vegetarian,East
+Mihidana,ghee,vegetarian,East
+Pantua,ghee,vegetarian,East
+Adhirasam,ghee,vegetarian,East
+Chingri malai curry,ginger,non vegetarian,East
+Kabiraji,ginger,non vegetarian,East
+Mishti Chholar Dal,ginger,vegetarian,East
+Misti doi,jaggery,vegetarian,East
+Adhirasam,jaggery,vegetarian,East
+Balu shahi,oil,vegetarian,East
+Goja,oil,vegetarian,East
+Chingri Bhape,prawns,non vegetarian,East
+Prawn malai curry,prawns,non vegetarian,East
+Cham cham,saffron,vegetarian,East
+Kheer sagar,saffron,vegetarian,East
+Sandesh,saffron,vegetarian,East
+Chicken razala,saffron,non vegetarian,East
+Balu shahi,sugar,vegetarian,East
+Gulab jamun,sugar,vegetarian,East
+Kalakand,sugar,vegetarian,East
+Phirni,sugar,vegetarian,East
+Chhena jalebi,sugar,vegetarian,East
+Chhena kheeri,sugar,vegetarian,East
+Cham cham,sugar,vegetarian,East
+Kheer sagar,sugar,vegetarian,East
+Ledikeni,sugar,vegetarian,East
+Mihidana,sugar,vegetarian,East
+Pantua,sugar,vegetarian,East
+Rasgulla,sugar,vegetarian,East
+Sandesh,sugar,vegetarian,East
+Prawn malai curry,sugar,non vegetarian,East
+Kadai paneer,Cottage cheese,vegetarian,North
+Palak paneer,Cottage cheese,vegetarian,North
+Shahi paneer,Cottage cheese,vegetarian,North
+Shufta,Cottage cheese,vegetarian,North
+Butter chicken,butter,non vegetarian,North
+Naan,butter,vegetarian,North
+Palak paneer,butter,vegetarian,North
+Paneer butter masala,butter,vegetarian,North
+Paratha,butter,vegetarian,North
+Butter chicken,cashew nuts,non vegetarian,North
+Dum aloo,cashew nuts,vegetarian,North
+Kadai paneer,cashew nuts,vegetarian,North
+Paneer butter masala,cashew nuts,vegetarian,North
+Butter chicken,cream,non vegetarian,North
+Dal makhani ,cream,vegetarian,North
+Kofta,cream,vegetarian,North
+Palak paneer,cream,vegetarian,North
+Paneer tikka masala,cream,vegetarian,North
+Aloo gobi,garam masala,vegetarian,North
+Aloo tikki,garam masala,vegetarian,North
+Aloo matar,garam masala,vegetarian,North
+Aloo shimla mirch,garam masala,vegetarian,North
+Bhindi masala,garam masala,vegetarian,North
+Chana masala,garam masala,vegetarian,North
+Chicken Tikka masala,garam masala,non vegetarian,North
+Chole bhature,garam masala,vegetarian,North
+Dal makhani ,garam masala,vegetarian,North
+Dal tadka,garam masala,vegetarian,North
+Dum aloo,garam masala,vegetarian,North
+Kachori,garam masala,vegetarian,North
+Kadai paneer,garam masala,vegetarian,North
+Kofta,garam masala,vegetarian,North
+Makki di roti sarson da saag,garam masala,vegetarian,North
+Mushroom do pyaza,garam masala,vegetarian,North
+Mushroom matar,garam masala,vegetarian,North
+Palak paneer,garam masala,vegetarian,North
+Paneer butter masala,garam masala,vegetarian,North
+Shahi paneer,garam masala,vegetarian,North
+Vegetable jalfrezi,garam masala,vegetarian,North
+Tandoori Chicken,garam masala,non vegetarian,North
+Butter chicken,garam masala powder,non vegetarian,North
+Chicken Tikka,garam masala powder,non vegetarian,North
+Kadhi pakoda,garam masala powder,vegetarian,North
+Karela bharta,garam masala powder,vegetarian,North
+Lauki ke kofte,garam masala powder,vegetarian,North
+Navrattan korma,garam masala powder,vegetarian,North
+Rajma chaval,garam masala powder,vegetarian,North
+Aloo matar,ginger,vegetarian,North
+Chana masala,ginger,vegetarian,North
+Dal tadka,ginger,vegetarian,North
+Kadhi pakoda,ginger,vegetarian,North
+Lauki ke kofte,ginger,vegetarian,North
+Makki di roti sarson da saag,ginger,vegetarian,North
+Mushroom do pyaza,ginger,vegetarian,North
+Rajma chaval,ginger,vegetarian,North
+Shahi paneer,ginger,vegetarian,North
+Vegetable jalfrezi,ginger,vegetarian,North
+Bhindi masala,kasuri methi,vegetarian,North
+Dal tadka,kasuri methi,vegetarian,North
+Dum aloo,kasuri methi,vegetarian,North
+Pindi chana,kasuri methi,vegetarian,North
+Rongi,kasuri methi,vegetarian,North
+Tandoori Chicken,kasuri methi,non vegetarian,North
+Rajma chaval,mustard oil,vegetarian,North
+Rongi,mustard oil,vegetarian,North
+Sattu ki roti,mustard oil,vegetarian,North
+Tandoori Chicken,mustard oil,non vegetarian,North
+Aloo gobi,potato,vegetarian,North
+Aloo tikki,potato,vegetarian,North
+Kofta,potato,vegetarian,North
+Paratha,potato,vegetarian,North
+Gajar ka halwa,sugar,vegetarian,North
+Lassi,sugar,vegetarian,North
+Petha,sugar,vegetarian,North
+Rabri,sugar,vegetarian,North
+Litti chokha,tomato,vegetarian,North
+Pindi chana,tomato,vegetarian,North
+Rajma chaval,tomato,vegetarian,North
+Rongi,tomato,vegetarian,North
+Shahi paneer,tomato,vegetarian,North
+Alu Pitika,Potatoes,non vegetarian,North East
+Bilahi Maas,Potatoes,non vegetarian,North East
+Chak Hao Kheer,Rice,vegetarian,North East
+Galho,Rice,non vegetarian,North East
+Kumol Sawul,Rice,non vegetarian,North East
+Pithe,Rice flour,vegetarian,North East
+Koldil Duck,Rice flour,non vegetarian,North East
+Bilahi Maas,bay leaf,non vegetarian,North East
+Haq Maas,bay leaf,non vegetarian,North East
+Konir Dom,bay leaf,non vegetarian,North East
+Black rice,chicken,non vegetarian,North East
+Koldil Chicken,chicken,non vegetarian,North East
+Maach Jhol,chillies,non vegetarian,North East
+Pork Bharta,chillies,non vegetarian,North East
+Galho,chillies,non vegetarian,North East
+Alu Pitika,fish,non vegetarian,North East
+Masor tenga,fish,non vegetarian,North East
+Khar,mustard oil,vegetarian,North East
+Alu Pitika,mustard oil,non vegetarian,North East
+Masor tenga,mustard oil,non vegetarian,North East
+Bilahi Maas,mustard oil,non vegetarian,North East
+Khorisa,mustard oil,vegetarian,North East
+Koldil Chicken,mustard oil,non vegetarian,North East
+Konir Dom,mustard oil,non vegetarian,North East
+Masor Koni,mustard oil,non vegetarian,North East
+Black rice,olive oil,non vegetarian,North East
+Koldil Duck,olive oil,non vegetarian,North East
+Pork Bharta,onions,non vegetarian,North East
+Bengena Pitika,onions,vegetarian,North East
+Galho,salt,non vegetarian,North East
+Bengena Pitika,salt,vegetarian,North East
+Masor tenga,tomatoes,non vegetarian,North East
+Bilahi Maas,tomatoes,non vegetarian,North East
+Konir Dom,tomatoes,non vegetarian,North East
+Poornalu,Chana dal,vegetarian,South
+Currivepillai sadam ,Chana dal,vegetarian,South
+Dosa,Chana dal,vegetarian,South
+Kootu,Chana dal,vegetarian,South
+Kothamali sadam,Chana dal,vegetarian,South
+Masala Dosa,Chana dal,vegetarian,South
+Poriyal,Chana dal,vegetarian,South
+Uttapam,Chana dal,vegetarian,South
+Ariselu,Rice flour,vegetarian,South
+Gavvalu,Rice flour,vegetarian,South
+Palathalikalu,Rice flour,vegetarian,South
+Pootharekulu,Rice flour,vegetarian,South
+Unni Appam,Rice flour,vegetarian,South
+Kajjikaya,Rice flour,vegetarian,South
+Idiappam,Rice flour,vegetarian,South
+Mysore pak,coconut,vegetarian,South
+Obbattu holige,coconut,vegetarian,South
+Unni Appam,coconut,vegetarian,South
+Kajjikaya,coconut,vegetarian,South
+Beef Fry,coconut,non vegetarian,South
+Poriyal,coconut,vegetarian,South
+Currivepillai sadam ,curry leaves,vegetarian,South
+Keerai masiyal,curry leaves,vegetarian,South
+Beef Fry,curry leaves,non vegetarian,South
+Kos kootu,curry leaves,vegetarian,South
+Koshambri,curry leaves,vegetarian,South
+Kothamali sadam,curry leaves,vegetarian,South
+Kuzhambu,curry leaves,vegetarian,South
+Pachadi,curry leaves,vegetarian,South
+Paniyaram,curry leaves,vegetarian,South
+Paruppu sadam,curry leaves,vegetarian,South
+Puli sadam,curry leaves,vegetarian,South
+Rasam,curry leaves,vegetarian,South
+Sandige,curry leaves,vegetarian,South
+Thayir sadam,curry leaves,vegetarian,South
+Vada,curry leaves,vegetarian,South
+Ariselu,ghee,vegetarian,South
+Bandar laddu,ghee,vegetarian,South
+Gavvalu,ghee,vegetarian,South
+Mysore pak,ghee,vegetarian,South
+Obbattu holige,ghee,vegetarian,South
+Pongal,ghee,vegetarian,South
+Pootharekulu,ghee,vegetarian,South
+Attu,ginger,vegetarian,South
+Paniyaram,ginger,vegetarian,South
+Thayir sadam,ginger,vegetarian,South
+Vada,ginger,vegetarian,South
+Chicken Varuval,ginger,non vegetarian,South
+Ariselu,jaggery,vegetarian,South
+Bandar laddu,jaggery,vegetarian,South
+Mysore pak,jaggery,vegetarian,South
+Obbattu holige,jaggery,vegetarian,South
+Poornalu,jaggery,vegetarian,South
+Pongal,jaggery,vegetarian,South
+Unni Appam,jaggery,vegetarian,South
+Kajjikaya,jaggery,vegetarian,South
+Kuzhakkattai,jaggery,vegetarian,South
+Double ka meetha,milk,vegetarian,South
+Palathalikalu,milk,vegetarian,South
+Sheer korma,milk,vegetarian,South
+Shahi tukra,milk,vegetarian,South
+Paravannam,milk,vegetarian,South
+Payasam,milk,vegetarian,South
+Keerai masiyal,mustard seeds,vegetarian,South
+Keerai sadam,mustard seeds,vegetarian,South
+Keerai poriyal,mustard seeds,vegetarian,South
+Pachadi,mustard seeds,vegetarian,South
+Rasam,mustard seeds,vegetarian,South
+Thayir sadam,mustard seeds,vegetarian,South
+Bandar laddu,sugar,vegetarian,South
+Gavvalu,sugar,vegetarian,South
+Kakinada khaja,sugar,vegetarian,South
+Mysore pak,sugar,vegetarian,South
+Keerai masiyal,sugar,vegetarian,South
+Payasam,sugar,vegetarian,South
+Puttu,sugar,vegetarian,South
+Kaara kozhambu,tomato,vegetarian,South
+Keerai sadam,tomato,vegetarian,South
+Kuzhambu,tomato,vegetarian,South
+Paruppu sadam,tomato,vegetarian,South
+Uttapam,tomato,vegetarian,South
+Chicken Varuval,tomato,non vegetarian,South
+Avial,urad dal,vegetarian,South
+Bisi bele bath,urad dal,vegetarian,South
+Currivepillai sadam ,urad dal,vegetarian,South
+Dosa,urad dal,vegetarian,South
+Idli,urad dal,vegetarian,South
+Keerai kootu,urad dal,vegetarian,South
+Kootu,urad dal,vegetarian,South
+Kothamali sadam,urad dal,vegetarian,South
+Kuzhambu,urad dal,vegetarian,South
+Masala Dosa,urad dal,vegetarian,South
+Poriyal,urad dal,vegetarian,South
+Uttapam,urad dal,vegetarian,South
+Anarsa,Rice flour,vegetarian,West
+Modak,Rice flour,vegetarian,West
+Chakali,Rice flour,vegetarian,West
+Kombdi vade,Rice flour,vegetarian,West
+Khichu,Rice flour,vegetarian,West
+Chapati,Whole wheat flour,vegetarian,West
+Daal Dhokli,Whole wheat flour,vegetarian,West
+Khakhra,Whole wheat flour,vegetarian,West
+Sukhdi,Whole wheat flour,vegetarian,West
+Thalipeeth,Whole wheat flour,vegetarian,West
+Churma Ladoo,Whole wheat flour,vegetarian,West
+Pattor,bengal gram flour,vegetarian,West
+Chorafali,bengal gram flour,vegetarian,West
+Daal Dhokli,bengal gram flour,vegetarian,West
+Khakhra,bengal gram flour,vegetarian,West
+Mohanthal,bengal gram flour,vegetarian,West
+Muthiya,bengal gram flour,vegetarian,West
+Patra,bengal gram flour,vegetarian,West
+Ghevar,clarified butter,vegetarian,West
+Dudhi halwa,clarified butter,vegetarian,West
+Gud papdi,clarified butter,vegetarian,West
+Sukhdi,clarified butter,vegetarian,West
+Farsi Puri,clarified butter,vegetarian,West
+Bebinca,clarified butter,vegetarian,West
+Poha,curry leaves,vegetarian,West
+Amti,curry leaves,vegetarian,West
+Dalithoy,curry leaves,vegetarian,West
+Khandvi,curry leaves,vegetarian,West
+Puri Bhaji,curry leaves,vegetarian,West
+Sabudana Khichadi,curry leaves,vegetarian,West
+Boondi,ghee,vegetarian,West
+Ghevar,ghee,vegetarian,West
+Sheera,ghee,vegetarian,West
+Sohan papdi,ghee,vegetarian,West
+Shankarpali,ghee,vegetarian,West
+Sutar feni,ghee,vegetarian,West
+Kolim Jawla,ginger,non vegetarian,West
+Puri Bhaji,ginger,vegetarian,West
+Sev tameta,ginger,vegetarian,West
+Vindaloo,ginger,non vegetarian,West
+Lilva Kachori,ginger,vegetarian,West
+Dhokla,gram flour,vegetarian,West
+Gatta curry,gram flour,vegetarian,West
+Khandvi,gram flour,vegetarian,West
+Kombdi vade,gram flour,vegetarian,West
+Methi na Gota,gram flour,vegetarian,West
+Khaman,gram flour,vegetarian,West
+Pattor,gur,vegetarian,West
+Daal Dhokli,gur,vegetarian,West
+Patra,gur,vegetarian,West
+Sukhdi,gur,vegetarian,West
+Churma Ladoo,gur,vegetarian,West
+Chikki,jaggery,vegetarian,West
+Anarsa,jaggery,vegetarian,West
+Gud papdi,jaggery,vegetarian,West
+Surnoli,jaggery,vegetarian,West
+Mag Dhokli,jaggery,vegetarian,West
+Pattor,sesame seeds,vegetarian,West
+Bhakri,sesame seeds,vegetarian,West
+Muthiya,sesame seeds,vegetarian,West
+Patra,sesame seeds,vegetarian,West
+Thalipeeth,sesame seeds,vegetarian,West
+Khichu,sesame seeds,vegetarian,West
+Khaman,sesame seeds,vegetarian,West
+Churma Ladoo,sesame seeds,vegetarian,West
+Boondi,sugar,vegetarian,West
+Ghevar,sugar,vegetarian,West
+Sohan papdi,sugar,vegetarian,West
+Doodhpak,sugar,vegetarian,West
+Mahim halwa,sugar,vegetarian,West
+Shrikhand,sugar,vegetarian,West
+Sutar feni,sugar,vegetarian,West
+Chevdo,sugar,vegetarian,West
+Dudhi halwa,sugar,vegetarian,West
+Keri no ras,sugar,vegetarian,West
+Sev tameta,sugar,vegetarian,West
+Turiya Patra Vatana sabji,sugar,vegetarian,West
