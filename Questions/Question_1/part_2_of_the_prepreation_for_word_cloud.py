@@ -6,11 +6,11 @@ from collections import Counter
 from pprint import pprint
 
 # **************************************************************************************************************
-# Function  name:
+# Function  name: Retrieving_the_top_12_ingredients_in_each_region
 # input:
 # return value:
 # ***************************************************************************************************************
-def retreiving_the_top_12_ingredients_in_each_region(df_word_cloud):
+def Retrieving_the_top_12_ingredients_in_each_region(df_word_cloud):
     global big_df
     # Initialize an empty list to store filtered dataframes
     filtered_dfs = []
@@ -44,7 +44,7 @@ if __name__ == '__main__':
     df_sorted =df_word_cloud.sort_values(by=['region', 'ingredients'], inplace=True)
     print('*')
 
-    res=retreiving_the_top_12_ingredients_in_each_region(df_word_cloud)
+    res=Retrieving_the_top_12_ingredients_in_each_region(df_word_cloud)
     print('*')
 
 
